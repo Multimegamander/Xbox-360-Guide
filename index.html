@@ -1,0 +1,293 @@
+<!doctype html>
+  <html lang="en" class="no-js">
+<head>
+
+    <title>Xbox 360 Homebrew Guide - Xbox 360 Homebrew Guide</title>
+
+<!--Begin META-->
+  <meta charset="utf-8">
+  <meta name="description" content="A complete guide to Xbox 360 homebrew, and homebrew development.">
+  <meta name="author" content="Multimegamander">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Xbox 360 Homebrew Guide">
+  <meta property="og:title" content="Xbox 360 Homebrew Guide">
+  <link rel="canonical" href="https://haxx.guide/Xbox-360-Guide">
+  <meta property="og:url" content="https://haxx.guide/Xbox-360-Guide">
+  <meta property="og:image" content="https://haxx.guide/Xbox-360-Guide/images/home-page-feature.jpg">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!--Begin Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://haxx.guide/Xbox-360-Guide/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://haxx.guide/Xbox-360-Guide/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://haxx.guide/Xbox-360-Guide/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00a300">
+  <meta name="msapplication-TileColor" content="#00a300">
+  <meta name="theme-color" content="#ffffff">
+ <!--End Favicon-->
+<!--End META-->
+</head>
+
+
+
+<!--Begin Header-->
+  <body class="layout--splash">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <ul class="visible-links">
+          
+
+                        <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://multimegamander.github.io/Switch-Guide">Home</a></li>
+                        
+                        
+                        
+                        <li class="masthead__menu-item"><a href="faq.html">FAQ</a></li>
+                                                
+                                               
+                        
+                        <li class="masthead__menu-item"><a href="donations.html">Donations</a></li>
+                        
+                        
+                        
+                        <li class="masthead__menu-item"><a href="credits.html">Credits</a></li>
+                                                
+                        
+                        
+                        <li class="masthead__menu-item"><a href="help.html">Help (Discord)</a></li>
+          
+                                  
+                        
+                        <li class="masthead_menu-item"><a href="troubleshooting.html">Troubleshooting</a></li>          
+
+
+
+                        <li class="masthead_menu-item"><a href="site-navigation.html">Site Navigation</a></li>
+
+
+
+         </ul>
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          <li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide"><img src=https://Multimegamander.github.io/images/flags/us.png> English</a></li> 
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/es_ES/"><img src=https://Multimegamander.github.io/images/flags/es.png> Español</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/de_DE/"><img src=https://Multimegamander.github.io/images/flags/de.png> Deutsch</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/fr_FR/"><img src=https://Multimegamander.github.io/images/flags/fr.png> Français</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/it_IT/"><img src=https://Multimegamander.github.io/images/flags/it.png> Italiano</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/nl_NL/"><img src=https://Multimegamander.github.io/images/flags/nl.png> Nederlands</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/pt_BR/"><img src=https://Multimegamander.github.io/images/flags/br.png> Português do Brasil</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/pt_PT/"><img src=https://Multimegamander.github.io/images/flags/pt.png> Português (Portugal)</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/ru_RU/"><img src=https://Multimegamander.github.io/images/flags/ru.png> Русский</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/zh_CN/"><img src=https://Multimegamander.github.io/images/flags/cn.png> 简体中文</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/zh_TW/"><img src=https://Multimegamander.github.io/images/flags/tw.png> 繁體中文</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/pl_PL/"><img src=https://Multimegamander.github.io/images/flags/pl.png> Polski</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/tr_TR/"><img src=https://Multimegamander.github.io/images/flags/tr.png> Türkçe</a></li>--> 
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/vi_VN/"><img src=https://Multimegamander.github.io/images/flags/vn.png> Tiếng Việt</a></li>--> 
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/ca_ES/"><img src=https://Multimegamander.github.io/images/flags/ca_ES.png> Català</a></li>--> 
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/el_GR/"><img src=https://Multimegamander.github.io/images/flags/gr.png> Ελληνικά</a></li>--> 
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/he_IL/"><img src=https://Multimegamander.github.io/images/flags/il.png> עברית‎</a></li>--> 
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/sv_SE/"><img src=https://Multimegamander.github.io/images/flags/se.png> Svenska</a></li>--> 
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/ko_KR/"><img src=https://Multimegamander.github.io/images/flags/kr.png> 한국어</a></li>--> 
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/no_NO/"><img src=https://Multimegamander.github.io/images/flags/no.png> Norsk</a></li>--> 
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/ja_JP/"><img src=https://Multimegamander.github.io/images/flags/jp.png> 日本語</a></li>--> 
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/ar_SA/"><img src=https://Multimegamander.github.io/images/flags/ar.png> اللغة العربية</a></li>--> 
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/hu_HU/"><img src=https://Multimegamander.github.io/images/flags/hu.png> Magyar</a></li>--> 
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/ro_RO/"><img src=https://Multimegamander.github.io/images/flags/ro.png> Română</a></li>--> 
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/sr_SP/"><img src=https://Multimegamander.github.io/images/flags/sr.png> Српски</a></li>--> 
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/af_ZA/"><img src=https://Multimegamander.github.io/images/flags/za.png> Afrikaans</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/ms_MY/"><img src=https://Multimegamander.github.io/images/flags/my.png> Bahasa Melayu</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/fi_FI/"><img src=https://Multimegamander.github.io/images/flags/fi.png> Suomi</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/da_DK/"><img src=https://Multimegamander.github.io/images/flags/dk.png> Dansk</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/uk_UA/"><img src=https://Multimegamander.github.io/images/flags/ua.png> Українська</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/cs_CZ/"><img src=https://Multimegamander.github.io/images/flags/cz.png> Čeština</a></li>-->
+      <!--<li class="masthead__menu-item"><a href="https://haxx.guide/Xbox-360-Guide/en_PT/"><img src= https://multimegamander.github.io/images/flags/ptr.png> Pirate English</a></li>-->
+          <li class="masthead__menu-item"><a href="https://github.com/Multimegamander/Xbox-360-Guide">Click here to help translate this site</a></li>
+
+        </ul>
+        <button class="navsel"><div class="navicon"></div></button>
+        <button class="langsel"><div class="langicon"><i class="fa fa-language fa-2x" aria-hidden="true"></i></div></button>
+      </nav>
+    </div>
+  </div>
+</div>
+<!--End Header-->
+
+    
+
+
+<!--Begin Home Page Feature-->
+<div class="page__hero--overlay"
+  style="background-color: #5e616c; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://haxx.guide/Xbox-360-Guide/images/home-page-feature.jpeg');"
+>
+    <div class="wrapper">
+      <h1 class="page__title" itemprop="headline">        
+          Xbox 360 Homebrew Guide
+      </h1>  
+        <p class="page__lead">A complete guide to Xbox 360 homebrew,<br> and homebrew development.</br>
+</p>      
+            <p><a href="get-started.html" class="btn btn--light-outline btn--large">Get Started</a></p>
+    </div>  
+</div>
+<!--End Home Page Feature-->
+
+
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Switch Guide">
+    <meta itemprop="description" content="A complete guide to Switch, from stock to RCM + CFW.">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <hr>
+        
+      
+      
+
+      
+        
+        <div class ="notice"><b>For support, ask for help at the <a href="help.html">Discord Server</a>.</b></div>
+      
+        
+        <div class ="notice"><b>If you appreciate this guide, I accept <a href="donations.html">Donations</a>.</b></div>
+      
+
+
+
+<p class="notice--warning">Thoroughly read all of the introductory pages (including this one!) before proceeding.</p>
+
+<p class="notice--danger">This guide is for retail (consumer purchased; not a developer console from Microsoft) consoles <em>ONLY</em>!</p>
+
+<div class="notice--success">
+<p>This guide is available in other languages!  <br />
+Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.  <br />
+Alternatively, click <a href="https://crowdin.com/project/homebrew-guide">here</a> to help to keep these translations up to date.</p>
+</div>
+                
+
+
+
+<h2 id="what-is-homebrew">What is Homebrew?</h2>
+
+<p><a href="https://en.wikipedia.org/wiki/List_of_homebrew_video_games"><strong>Homebrew</strong></a> usually refers to software that is not authorized by Microsoft. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.</p>
+
+
+
+
+<h2 id="what-does-this-guide-install">What does this guide install?</h2>
+
+<p>There are various options of exploits to use, from the free, but legacy King Kong shader exploit, to the most superior, but costs money and requires soldering, RGH modchip.</p>
+
+<p>There are a lot of variables required in finding what exploit suits you, as all have their pros, and cons.</p>
+
+
+<h2 id="what-can-i-do-with-a-modded-console">What can I do with a Modded Console?</h2>
+
+<ul>
+  <li>Get a customized dashboard with more features.</li>
+  <li>Get custom themes</li>
+  <li>Backup, edit, and restore saves for many games.</li>
+  <li>Play games for older systems with various emulators, using RetroArch or other standalone emulators.</li>
+  <li>Dump your game discs to a hard-drive/USB-drive, and play them.</li>
+  <li>Play your Xbox games on your 360 with a mod of the built in Xbox emulator adding higher compatability</li>
+</ul>
+
+<h2 id="what-do-i-need-to-know-before-starting">What do I need to know before starting?</h2>
+
+<ul>
+  <li><strong>Before beginning the guide, you must know the risks of 360 hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They’re rare, but still a possibility so make sure you follow ALL directions EXACTLY.</strong></li>
+  <li>This guide will work on all Xbox 360 Phats, Xbox 360 Slim, and Xbox 360 E devices in all regions and firmwares</li>
+  <li>If everything goes according to plan, you will lose no data and end up with everything that you started with (games, Live Account, saves, etc will be preserved).</li>
+</ul>
+
+<hr />
+
+            </section>
+        </article>
+
+        
+  
+
+
+</div>
+
+<!--Begin Footer--> 
+    <div class="page__footer">
+      <footer>
+
+         <h5 class="social"><a href="https://paypal.me/TylerGenn/15"><i class="fab fa-paypal fa-2x"></i></a></span>
+   ‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍　 ‍‍           
+         <span class="social"><a href="https://github.com/Multimegamander/Xbox-360-Guide"><i class="fab fa-github fa-2x "></i></a> 
+‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍　           
+   ‍‍ 
+            <a href="https://discord.gg/e9SufnW"><i class="fab fa-discord fa-2x"></i></a></span> </h5>
+              
+    <hr>
+       <h5 <div class="page_footer-copyright">&copy; 2018 <a href="https://github.com/Multimegamander"> Multimegamander</a></h5>
+    </hr> <style type="text/css">
+            .social { float: right; }
+          </style>
+      </footer>
+        </div> 
+<!--End Footer-->
+
+
+
+
+
+<!--Begin CSS-->
+  <!-- For all browsers -->
+  <link rel="stylesheet" href="https://haxx.guide/Ps4-Guide/assets/css/main.css">
+
+<!--End CSS-->
+
+
+
+
+
+<!--Begin JavaScript at end for faster loading-->
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Multimegamander",
+      "url" : "https://haxx.guide",
+      "sameAs" : null
+    }
+  </script>
+
+  <script>
+   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  </script>
+
+ <!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+ <![endif]-->
+
+ <!--font awesome-->
+<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+ <!--font awesome-->
+
+  <script src="https://haxx.guide/Ps4-Guide/assets/js/main.min.js"></script>
+<!--End JavaScript-->
